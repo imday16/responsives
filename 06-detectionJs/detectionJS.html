@@ -7,28 +7,27 @@
     <title>DetectionJS</title>
 </head>
 <body>
+    <p>Sortir l'inspecteur et vérifier dans l'onglet > console le console.log()</p>
 
-    <p>Sortir l'inspecteur et vérifier le console.log()</p>
     <script>
-            function detectMob(){
-                if(
-                    navigator.userAgent.match(/Android/i)
-                    ||navigator.userAgent.match(/webOS/i)
-                    ||navigator.userAgent.match(/iphone/i)
-                    ||navigator.userAgent.match(/ipad/i)
-                    ||navigator.userAgent.match(/ipod/i)
-                    ||navigator.userAgent.match(/blackBerry/i)
-                    ||navigator.userAgent.match(/windows phone/i)
-                
-                
-                ){
-                    console.info("C'est un mobile");
-                }
-                else{
-                    console.info('Ce n\'est pas un mobile ! ');
-                }
+        function detectMob(){
+            if (
+                navigator.userAgent.match(/Android/i)
+                || navigator.userAgent.match(/webOS/i)
+                || navigator.userAgent.match(/iPhone/i)
+                || navigator.userAgent.match(/iPad/i)
+                || navigator.userAgent.match(/iPod/i)
+                || navigator.userAgent.match(/BlackBerry/i)
+                || navigator.userAgent.match(/Windows Phone/i)        
+            ){
+                console.info("C'est un mobile!");
             }
-            detectMob();
+            else{
+                console.info('Ce n\'est pas un mobile ! ');
+            }
+        }
+        detectMob();
     </script>
+    
 </body>
 </html>

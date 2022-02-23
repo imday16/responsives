@@ -1,25 +1,24 @@
-/* Style CSS spécifique iphone */
-@media only screen
-and ( min-device-width: 320px)
-and ( max-device-width: 480px){
-
+/* Style CSS spécifique iPhone */
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 480px){
 
 }
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: landscape){
+
+@media only screen 
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape){
     #zone{ 
         background: red;
-        }
+    }
 }
 
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: portrait){
+@media only screen 
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait){
     #zone{ 
         background: blue;
-        }
+    }
 }
-
