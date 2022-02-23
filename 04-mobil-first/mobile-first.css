@@ -1,0 +1,55 @@
+@media only screen and (min-width:300px) and (max-width:499px){
+    #container{
+        border:2px solid;
+        margin:0 auto;
+        width: 80%;
+        min-height:100%;
+        font-size: 4.2vw;
+    }
+    header{
+        background: #f6553f;
+        height: 5vh;
+    }
+    p{margin:0;
+    }
+    nav{
+        background: #665533;
+        height: 2.5vh
+    }
+    section{
+        background: #f23f98;
+        margin: 2px;
+        height: 400px;
+    }
+    footer{
+        background: #32f65f;
+        height: 4.5vh;
+    }
+    .a{
+        float:left;
+        width: 100%;
+        height: 10vh;
+        background:#336699;
+    }
+    .b{
+        float:left;
+        width: 100%;
+        height: 10vh;
+        background:#767676;
+    }
+    .c{
+        float:left;
+        width: 100%;
+        height: 10vh;
+        background:#fda500;
+    }
+    .d{
+        float:left;
+        width: 100%;
+        height: 10vh;
+        background:#aa2355;
+    }
+
+
+
+}

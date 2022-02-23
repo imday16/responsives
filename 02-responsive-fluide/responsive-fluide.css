@@ -1,0 +1,57 @@
+/* VH: permet d'avoir des hauteurs en pourcentage en fonction de la taille de fenêtre */
+#container{
+    border: 2px solid; 
+    margin: 0 auto;
+    width: 80%;/** Ici on indique un valeur en % en fonction de la taille de la fenêtre  */
+    max-width: 1200px;
+    font-size: 1.2vw;/** vw spécifie une mesure en fonction de la taille de la fenêtre */
+}
+
+header{
+    background: #f6523f;
+    height: 15vh;
+}
+p{margin:0;}
+nav{
+    background: #665533;
+    height: 5vh;
+}
+section{
+    background: #f32f98;
+    margin: 2%;
+}
+footer{
+    background: #32f65f;
+    height: 7.5vh;
+}
+.a{
+    float: left;
+    width:50%;
+    height: 28vh;
+    background: #336699;
+}
+.b{
+    float: left;
+    width:50%;
+    height: 28vh;
+    background: #767676;
+}
+.c{
+    float: left;
+    width:50%;
+    height: 28vh;
+    background: #fda500;
+}
+.d{
+    float: left;
+    width:50%;
+    height: 28vh;
+    background: #aa2355;
+}
+.clear{clear: both;}
+
+@media screen and (max-width: 950px){
+    #conteneur{
+        font-size: 2vw ;
+    }
+}
