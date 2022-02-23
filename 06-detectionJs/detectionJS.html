@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DetectionJS</title>
+</head>
+<body>
+
+    <p>Sortir l'inspecteur et vérifier le console.log()</p>
+    <script>
+            function detectMob(){
+                if(
+                    navigator.userAgent.match(/Android/i)
+                    ||navigator.userAgent.match(/webOS/i)
+                    ||navigator.userAgent.match(/iphone/i)
+                    ||navigator.userAgent.match(/ipad/i)
+                    ||navigator.userAgent.match(/ipod/i)
+                    ||navigator.userAgent.match(blackBerry/i)
+                    ||navigator.userAgent.match(/windows phone/i)
+                
+                
+                ){
+                    console.info("C'est un mobile");
+                }
+                else{
+                    console.info('Ce n\'est pas un mobile ! ');
+                }
+            }
+            detectMob();
+    </script>
+</body>
+</html>
