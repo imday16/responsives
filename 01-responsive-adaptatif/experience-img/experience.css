@@ -1,30 +1,68 @@
 body{
-    margin:0;
+    
     padding:0;
 }
 .carousel-inner{
     height:600px;
-    width:600px;
+    width:300px;
+    display:flex;
+    flex-direction: column;
+
 
 }
 .image1{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
 
 
 }
 .image2{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
 
 }
 .image3{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
 
 }
 p{
     color:black;
     background: lightblue;
-    max-width:500px;
+    max-width:300px;
 }
+.tableau{
+    border:2px solid black;
+    
+}
+thead{
+    border:3px solid black;
+}
+.femme{
+    border:2px solid black;
+    background-color: aqua;
+}
+.ligne1{
+    border :2px solid black;
+    background-color: aqua;
+    }
+    .ligne2{
+        border :2px solid black;
+        background-color: aquamarine;
+        }
+        .ligne7{
+            border :2px solid black;
+            background-color: aqua;
+            }
+            .ligne4{
+                border :2px solid black;
+                background-color: aquamarine;
+                }
+                .ligne5{
+                    border :2px solid black;
+                    background-color: aqua;
+                    }
+                    .ligne6{
+                        border :2px solid black;
+                        background-color: aquamarine;
+                        }
